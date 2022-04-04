@@ -7,8 +7,7 @@
 ### Short description about this project:
 <ul>
 <li>This site covers a drone review.</li>
-<li>Home page show as default.</li>
-<li>Home page shows top three comment.</li>
+<li>Home page shows top three comments.</li>
 <li>Review option shows all review.</li>
 <li>This site added 404 warning.</li>
 <li>All website created by react and used tailwind for styles.</li>
