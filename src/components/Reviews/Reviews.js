@@ -1,12 +1,9 @@
-import axios from "axios";
-import React, { useEffect, useState } from "react";
+import useCustomHooks from "../hooks/useCustomHooks";
 import SetReview from "../SetReview/SetReview";
 
 const Reviews = () => {
-  const [reviews, setReviews] = useState([]);
-  useEffect(() => {
-    axios.get("review.json").then((res) => setReviews(res.data));
-  }, []);
+  const [reviews] = useCustomHooks();
+ 
   return (
     <div className="my-9 mx-20">
       <div>
