@@ -1,5 +1,4 @@
 import React from "react";
-import Reviews from "../Reviews/Reviews";
 
 const Home = () => {
   return (
@@ -18,8 +17,11 @@ const Home = () => {
           <img src="https://res.cloudinary.com/dskmjlma4/image/upload/v1649000017/product-analysis/drone-hovering-up_puw9wi.jpg" alt="" />
         </div>
       </div>
-      <Reviews></Reviews>
-      <button className="text-bold text-3xl text-violet-900 border-2 bg-sky-100 px-3 rounded-lg hover:text-blue-900 my-14 hover:bg-violet-100">See All Reviews</button>
+      <div>
+        <h2 className="text-2xl font-sans font-semibold text-orange-600">Customer Reviews (3)</h2>
+      </div>
+      <button type="button" className="text-bold text-3xl text-violet-900 border-2 bg-sky-100 px-3 rounded-lg hover:text-blue-900 my-14 hover:bg-violet-100">See All Reviews
+      </button>
     </div>
   );
 };

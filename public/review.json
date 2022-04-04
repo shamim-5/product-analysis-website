@@ -1,0 +1,20 @@
+ [
+    { 
+       "name": "John Due", "details": "Super fast and the product is exactly like what we see in the pictures", "ratings": "4 stars" 
+      },
+    { 
+       "name": "David Mark", "details": "The drone didn't come in the packaging, only the accessories came in. ", "ratings": "3 stars" 
+      },
+    {
+        "name": "John Dalton", "details": "Good product arrived impeccable without any fault ", "ratings": "5 stars" 
+      },
+    {
+        "name": "William Hurry", "details": "Very good product, arrived fast. Manual is in English and Japanese .... Hard a little use palettes are fragile.", "ratings": "5 stars" 
+      },
+    { 
+       "name": " Vladimir Putin", "details": "Product very fun. Arrived in 27 days here Pro RN. The battery lasts about 15 minutes to discharge.", "ratings": "3 stars" 
+      },
+    { 
+       "name": "Barak Obama", "details": "Well packed fast shipping, the seller is of congratulations", "ratings": "4 stars" 
+      }
+  ]
