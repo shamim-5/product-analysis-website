@@ -1,6 +1,11 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+  const navigate = useNavigate();
+  const handleClick = () => {
+    navigate("../reviews");
+  }
   return (
     <div>
       <div className="grid grid-cols-1 md:grid-cols-3">
@@ -20,7 +25,7 @@ const Home = () => {
       <div>
         <h2 className="text-2xl font-sans font-semibold text-orange-600">Customer Reviews (3)</h2>
       </div>
-      <button type="button" className="text-bold text-3xl text-violet-900 border-2 bg-sky-100 px-3 rounded-lg hover:text-blue-900 my-14 hover:bg-violet-100">See All Reviews
+      <button onClick={handleClick} type="button" className="text-bold text-3xl text-violet-900 border-2 bg-sky-100 px-3 rounded-lg hover:text-blue-900 my-14 hover:bg-violet-100">See All Reviews
       </button>
     </div>
   );
