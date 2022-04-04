@@ -1,10 +1,11 @@
 import { useNavigate } from "react-router-dom";
 import useCustomHooks from "../hooks/useCustomHooks";
-import SetReview from "../SetReview/SetReview";
+import TopReview from "../TopReview/TopReview";
 
 const Home = () => {
   const [reviews] = useCustomHooks();
-  
+ 
+  let topReviews = [...reviews.slice(0, 3)];
 
   const navigate = useNavigate();
   const handleClick = () => {
@@ -30,9 +31,9 @@ const Home = () => {
         <div className="mb-6 mt-12">
           <h2 className="text-2xl font-sans font-semibold text-orange-600">Customer Reviews (3)</h2>
         </div>
-        <div className="flex justify-between">
-          {reviews.map((review) => (
-            <SetReview review={review}></SetReview>
+        <div className="flex justify-around mx-20">
+          {topReviews.map((review) => (
+            <TopReview key={review.name} review={review}></TopReview>
           ))}
         </div>
         <button onClick={handleClick} type="button" className="text-bold text-3xl text-violet-900 border-2 bg-sky-100 px-3 rounded-lg hover:text-blue-900 my-14 hover:bg-violet-100">
