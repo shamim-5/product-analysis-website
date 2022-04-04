@@ -5,10 +5,10 @@
 
 --------------
 ### Short description about this project:
-Markup: * This is a product analysis website.
-        * This site covers a drone review.
-        * Home page show as default.
-        * Home page shows top three comment.
-        * Review option shows all review.
-        * This site added 404 warning.
-        * All website created by react and used tailwind for styles.
+        * [This is a product analysis website.]
+        * [This site covers a drone review.]
+        * [Home page show as default.]
+        * [Home page shows top three comment.]
+        * [Review option shows all review.]
+        * [This site added 404 warning.]
+        * [All website created by react and used tailwind for styles.]
