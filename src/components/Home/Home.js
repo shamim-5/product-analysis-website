@@ -4,11 +4,11 @@ import Reviews from "../Reviews/Reviews";
 const Home = () => {
   return (
     <div>
-      <div className="grid grid-cols-3">
+      <div className="grid grid-cols-1 md:grid-cols-3">
         <div className="col-span-2 text-5xl text-left mx-16 my-auto">
           <h2 className="text-indigo-900 pb-5">Capture Your Moments with </h2>
           <h2 className="text-fuchsia-900">Contixo F35 GPS Drone 4K UHD Camera</h2>
-          <p className="text-xl pt-4">
+          <p className="text-xl pt-4 text-slate-700">
             4K UHD Camera with 2-Axis Self stabilizing Gimbal - Amazing 4K UHD video quality 3840 x 2160 pixel at 30fps for stunning clarity, deep contrast and vivid colors. The camera with a 100°FOV
             lens gives a broad view of the memorable moment and support up to 128GB SD card
           </p>
