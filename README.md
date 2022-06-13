@@ -1,6 +1,5 @@
 # Product Analysis Website
 
-## [Private repo link](https://github.com/programming-hero-web-course-4/product-analysis-website-mss38)
 [Live Website: https://product-analysis-website123.netlify.app/](https://product-analysis-website123.netlify.app/)
 
 --------------
